@@ -341,9 +341,9 @@ function App() {
                         Morbidelli - Smart Motorcycle Companion App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -361,9 +361,9 @@ function App() {
                         Exoress ECG App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -381,9 +381,9 @@ function App() {
                         Hospisoft Reporting App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -402,9 +402,9 @@ function App() {
                         Agents
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -422,9 +422,9 @@ function App() {
                         E-Learning Mobile and TV App solution
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -442,9 +442,9 @@ function App() {
                         Konnected Live App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -462,9 +462,9 @@ function App() {
                         Zomate Dating App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -482,9 +482,9 @@ function App() {
                         Quick Invoice Maker
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -502,9 +502,9 @@ function App() {
                         Pocketo
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -522,9 +522,9 @@ function App() {
                         Video Maker App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -542,9 +542,9 @@ function App() {
                         Sehmoo
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -562,9 +562,9 @@ function App() {
                         Abha Social App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -582,9 +582,9 @@ function App() {
                         LTR App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
@@ -602,9 +602,9 @@ function App() {
                         Photo Editor App
                       </h1>
                       <p className="mx-3 w-auto inline-flex items-center">
-                        <span className="underline underline-offset-[5px]">
+                        {/* <span className="underline underline-offset-[5px]">
                           View
-                        </span>
+                        </span> */}
                         <span className="ml-1">&rarr;</span>
                       </p>
                     </div>
