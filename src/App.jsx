@@ -208,9 +208,9 @@ function App() {
                 high-performance websites and applications.
               </p>
               <div className="flex md:flex-row gap-8 justify-center md:justify-start">
-                <button className="bg-white text-black py-2 px-5 rounded-[5px] hover:bg-[#1f2020] hover:text-white hover:border-2 hover:border-white transition duration-500 ease-in-out hover:rounded-[5px]">
+                {/* <button className="bg-white text-black py-2 px-5 rounded-[5px] hover:bg-[#1f2020] hover:text-white hover:border-2 hover:border-white transition duration-500 ease-in-out hover:rounded-[5px]">
                   Download CV
-                </button>
+                </button> */}
                 <button
                   onClick={() => scrollToElement("contact")}
                   className="bg-[#2d2d2d] text-white py-2 px-5 rounded-[5px] hover:bg-[#1f2020] hover:text-white hover:border-2 hover:border-[#2d2d2d] transition duration-500 ease-in-out hover:rounded-[5px]"
