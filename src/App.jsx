@@ -20,6 +20,15 @@ function App() {
     }
   }
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "mayank_vagadiya.pdf";
+    link.download = "MayankVagadiya-CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <>
       <div className="bg-[#1f2020] flex flex-col w-full overflow-x-hidden">
@@ -208,9 +217,12 @@ function App() {
                 high-performance websites and applications.
               </p>
               <div className="flex md:flex-row gap-8 justify-center md:justify-start">
-                {/* <button className="bg-white text-black py-2 px-5 rounded-[5px] hover:bg-[#1f2020] hover:text-white hover:border-2 hover:border-white transition duration-500 ease-in-out hover:rounded-[5px]">
+                <button
+                  onClick={handleDownload}
+                  className="bg-white text-black py-2 px-5 rounded-[5px] hover:bg-[#1f2020] hover:text-white hover:border-2 hover:border-white transition duration-500 ease-in-out hover:rounded-[5px]"
+                >
                   Download CV
-                </button> */}
+                </button>
                 <button
                   onClick={() => scrollToElement("contact")}
                   className="bg-[#2d2d2d] text-white py-2 px-5 rounded-[5px] hover:bg-[#1f2020] hover:text-white hover:border-2 hover:border-[#2d2d2d] transition duration-500 ease-in-out hover:rounded-[5px]"
@@ -780,20 +792,20 @@ function App() {
             </div>
           </div>
           <div
-            className="grid grid-cols-2 h-screen sm:pt-12 md:pt-24 md:mb-20 overflow-hidden"
+            className="flex md:grid md:grid-cols-2 h-screen sm:pt-12 md:pt-24 md:mb-20 overflow-hidden"
             id="contact"
           >
-            <div className="h-screen flex justify-center">
+            <div className="hidden md:flex h-screen justify-center">
               <img
                 src="/contact.png"
                 className="h-[100%] w-[60%] object-cover"
               />
             </div>
-            <div className="px-20 flex flex-col justify-center gap-8">
-              <h1 className="py-[30px] md:py-0 flex text-4xl font-bold text-white underline underline-offset-[15px] decoration-1">
+            <div className="md:px-20 flex flex-col items-center md:items-start justify-center gap-8">
+              <h1 className="flex text-4xl font-bold text-white underline underline-offset-[15px] decoration-1">
                 My Contact
               </h1>
-              <p className="text-white my-12">
+              <p className="text-white my-6 md:my-12 mx-5 md:mx-0">
                 I'm always open to exciting projects, collaborative
                 opportunities, or just a good conversation about technology and
                 innovation. If you're looking for someone who’s detail-oriented,
