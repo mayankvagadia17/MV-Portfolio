@@ -625,12 +625,12 @@ function App() {
               </Swiper>
             </div>
           </div>
-          <div className="flex flex-col h-auto sm:pt-12 md:pt-24" id="skill">
-            <h1 className="py-[30px] md:py-0 flex text-center justify-center items-center text-3xl font-bold text-white underline underline-offset-[15px] decoration-1">
+          <div className="flex flex-col w-full py-16 md:py-24" id="skill">
+            <h1 className="flex text-center justify-center items-center text-3xl font-bold text-white underline underline-offset-[15px] decoration-1">
               Skills
             </h1>
-            <div className="h-screen w-screen mt-12 sm:px-10 sm:flex sm:flex-col sm:gap-8 md:grid md:grid-cols-2 sm:pb-10">
-              <div className="px-10 sm:flex sm:flex-col sm:gap-8 md:grid md:grid-row-3 text-white md:px-12">
+            <div className="w-full mt-12 px-10 sm:flex sm:flex-col sm:gap-8 md:grid md:grid-cols-2 sm:pb-10">
+              <div className="sm:flex sm:flex-col sm:gap-8 md:grid md:grid-row-3 text-white md:px-12">
                 <div>
                   <h3 className="font-bold sm:text-lg md:text-2xl underline underline-offset-[10px] py-5">
                     Language
@@ -792,7 +792,7 @@ function App() {
             </div>
           </div>
           <div
-            className="flex md:grid md:grid-cols-2 h-screen sm:pt-12 md:pt-24 md:mb-20 overflow-hidden"
+            className="flex md:grid md:grid-cols-2 h-screen pt-12 md:pt-24 md:mb-20 overflow-hidden"
             id="contact"
           >
             <div className="hidden md:flex h-screen justify-center">
