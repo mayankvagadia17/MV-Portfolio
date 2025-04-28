@@ -194,7 +194,7 @@ function App() {
                 </h1>
               </AnimateOnScroll>
               <AnimateOnScroll delay={0.2} animation="slideLeft">
-                <p className="flex sm:text-center sm:justify-center md:text-start md:justify-start md:items-start md:text-2xl">
+                <p className="px-10 md:px-0 flex sm:text-center sm:justify-center md:text-start md:justify-start md:items-start md:text-2xl">
                   I'm a software developer with a passion for building
                   beautiful, high-performance websites and applications.
                 </p>
