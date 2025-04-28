@@ -630,7 +630,7 @@ function App() {
               Skills
             </h1>
             <div className="h-screen w-screen mt-12 sm:px-10 sm:flex sm:flex-col sm:gap-8 md:grid md:grid-cols-2 sm:pb-10">
-              <div className="sm:px-10 sm:flex sm:flex-col sm:gap-8 md:grid md:grid-row-3 text-white md:px-12">
+              <div className="px-10 sm:flex sm:flex-col sm:gap-8 md:grid md:grid-row-3 text-white md:px-12">
                 <div>
                   <h3 className="font-bold sm:text-lg md:text-2xl underline underline-offset-[10px] py-5">
                     Language
